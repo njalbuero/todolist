@@ -1,0 +1,102 @@
+body {
+    margin-top: 5em;
+    font-family: 'Nunito', sans-serif;
+    background: #DA22FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient( #9733EE, #DA22FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( #9733EE, #DA22FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#login-options {
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 1em;
+    background: #fff;
+    color: #000;
+    box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 1.25rem;
+    padding-bottom: 1.75rem;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0!important;
+}
+
+
+/* buttons */
+
+.btn {
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+}
+
+.btn:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+.green {
+    background-color: #558B2F;
+    box-shadow: 0px 5px 0px 0px #33691E;
+}
+
+.green:hover {
+    background-color: #689F38;
+}
+
+.purple {
+    background-color: #651FFF;
+    box-shadow: 0px 5px 0px 0px #6200EA;
+}
+
+.purple:hover {
+    background-color: #7C4DFF;
+}
+
+.red {
+    background-color: #e74c3c;
+    box-shadow: 0px 5px 0px 0px #CE3323;
+}
+
+.red:hover {
+    background-color: #FF6656;
+}
+
+.orange {
+    background-color: #e67e22;
+    box-shadow: 0px 5px 0px 0px #CD6509;
+}
+
+.orange:hover {
+    background-color: #FF983C;
+}
+
+.yellow {
+    background-color: #f1c40f;
+    box-shadow: 0px 5px 0px 0px #D8AB00;
+}
+
+.yellow:hover {
+    background-color: #FFDE29;
+}
+
+.inside-card {
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 0;
+}
